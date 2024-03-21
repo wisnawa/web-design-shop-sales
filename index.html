@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>coffes shop</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- swiper js cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- *******  Owl Carousel Links  ******* -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header starts -->
+    <header class="header">
+      <div class="nav__btns">
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+        <div class="nav-toggle" id="nav-toggle"></div>
+      </div>
+      <!-- navbar -->
+      <div class="navbar">
+        <a href="#"
+          ><i class="fa-solid fa-envelope"></i>putu.wisnawa@gmail.com |&nbsp;<i
+            class="fa-solid fa-phone"
+          ></i
+          >081999977969</a
+        >
+        <div class="shopping">
+          <img src="image/navbar-img/bxs-shopping-bags.svg" alt="" />
+          <span class="quantity">0</span>
+        </div>
+        <button class="h-btn">Login</button>
+      </div>
+    </header>
+    <header class="header-2">
+      <a href="#" class="logo">
+        <i class="fa-solid fa-mug-hot"></i>COFF<span>EE</span>
+      </a>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#product">Product</a>
+        <a href="#review">Reviews</a>
+        <a href="#reg">Registration</a>
+      </nav>
+    </header>
+    <!-- header ends -->
+    <!-- home starts -->
+    <section class="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <div
+            class="swiper-slide slider"
+            style="background: url(image/slider-img/bg1.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>start your day with coffee</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Doloremque autem architecto natus perferendis quo in cum?
+              </p>
+              <button class="h-btn">Order Now?</button>
+            </div>
+          </div>
+          <div
+            class="swiper-slide slider"
+            style="background: url(image/slider-img/bg2.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>start your day with coffee</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Doloremque autem architecto natus perferendis quo in cum?
+              </p>
+              <button class="h-btn">Order Now?</button>
+            </div>
+          </div>
+          <div
+            class="swiper-slide slider"
+            style="background: url(image/slider-img/bg3.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>start your day with coffee</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Doloremque autem architecto natus perferendis quo in cum?
+              </p>
+              <button class="h-btn">Order Now?</button>
+            </div>
+          </div>
+          <div
+            class="swiper-slide slider"
+            style="background: url(image/slider-img/bg4.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>start your day with coffee</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Doloremque autem architecto natus perferendis quo in cum?
+              </p>
+              <button class="h-btn">Order Now?</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- home ends -->
+    <!-- form stats -->
+    <div class="form">
+      <div class="select-menu">
+        <div class="select-row">
+          <div class="select-btn">
+            <span class="sBtn-text">Select Your Option</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <ul class="options">
+            <li class="option">
+              <span class="option-text">Select Option</span>
+            </li>
+            <li class="option">
+              <span class="option-text">Combo Pack 1</span>
+            </li>
+            <li class="option">
+              <span class="option-text">Combo Pack 2</span>
+            </li>
+            <li class="option">
+              <span class="option-text">Combo Pack 3</span>
+            </li>
+            <li class="option">
+              <span class="option-text">Combo Pack 4</span>
+            </li>
+            <li class="option">
+              <span class="option-text">Combo Pack 5</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="input">
+        <input
+          type="number"
+          name="product-qty"
+          class="product-qty"
+          min="0"
+          max="10"
+          value="1"
+        />
+        <input
+          type="email"
+          name=""
+          id=""
+          placeholder="Enter Your Email"
+          required
+        />
+        <a href="#" class="btn">Confirm</a>
+      </div>
+    </div>
+    <!-- form ends -->
+    <!-- About starts -->
+    <section id="about" class="about">
+      <h1 class="heading"><span>About&nbsp;</span>Us</h1>
+      <div class="about_row">
+        <div class="image">
+          <img src="image/about-img/about1.jpg" alt="" />
+        </div>
+        <div class="content">
+          <span>What Makes our Coffee Special?</span>
+          <h3>What Makes our Coffee Special?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque odio
+            repellat voluptatem provident debitis quam placeat ratione dolorem,
+            rem quis.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+    <!-- About ends -->
+    <!-- Feature Product starts -->
+    <section class="featured" id="featured">
+      <h1 class="heading"><span>Featured&nbsp;</span>Products</h1>
+      <div class="swiper featured-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="icons">
+              <a href="" class="fas fa-shopping-cart"></a>
+              <a href="" class="fas fa-heart"></a>
+              <a href="" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="image/products-img/product1.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Feature P. Name 1</h3>
+              <div class="price">
+                <div class="amount">Rp. 120.000,-</div>
+                <div class="cut">Rp. 20.000,-</div>
+                <div class="off">20% off</div>
+              </div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="icons">
+              <a href="" class="fas fa-shopping-cart"></a>
+              <a href="" class="fas fa-heart"></a>
+              <a href="" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="image/products-img/product2.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Feature P. Name 2</h3>
+              <div class="price">
+                <div class="amount">Rp. 120.000,-</div>
+                <div class="cut">Rp. 20.000,-</div>
+                <div class="off">20%off</div>
+              </div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="icons">
+              <a href="" class="fas fa-shopping-cart"></a>
+              <a href="" class="fas fa-heart"></a>
+              <a href="" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="image/products-img/product3.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Feature P. Name 3</h3>
+              <div class="price">
+                <div class="amount">Rp. 120.000,-</div>
+                <div class="cut">Rp. 20.000,-</div>
+                <div class="off">20% off</div>
+              </div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="icons">
+              <a href="" class="fas fa-shopping-cart"></a>
+              <a href="" class="fas fa-heart"></a>
+              <a href="" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="image/products-img/product4.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Feature P. Name 4</h3>
+              <div class="price">
+                <div class="amount">Rp. 120.000,-</div>
+                <div class="cut">Rp. 20.000,-</div>
+                <div class="off">20% off</div>
+              </div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="icons">
+              <a href="" class="fas fa-shopping-cart"></a>
+              <a href="" class="fas fa-heart"></a>
+              <a href="" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="image/products-img/product5.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Feature P. Name 4</h3>
+              <div class="price">
+                <div class="amount">Rp. 120.000,-</div>
+                <div class="cut">Rp. 20.000,-</div>
+                <div class="off">20% off</div>
+              </div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="icons">
+              <a href="" class="fas fa-shopping-cart"></a>
+              <a href="" class="fas fa-heart"></a>
+              <a href="" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="image/products-img/product6.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Feature P. Name 4</h3>
+              <div class="price">
+                <div class="amount">Rp. 120.000,-</div>
+                <div class="cut">Rp. 20.000,-</div>
+                <div class="off">20% off</div>
+              </div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+    <!-- Feature Product ends -->
+    <!-- Product starts -->
+    <div class="container" id="product">
+      <h1 class="heading"><span>Our&nbsp;</span>Products</h1>
+      <div class="product-container">
+        <div class="product" data-name="p-1">
+          <img src="image/products2-img/p1.png" alt="" />
+          <h3>Product Name</h3>
+          <div class="price">Rp 86.000,-</div>
+          <button class="btn">Details Here</button>
+        </div>
+        <div class="product" data-name="p-2">
+          <img src="image/products2-img/p2.png" alt="" />
+          <h3>Product Name</h3>
+          <div class="price">Rp 86.000,-</div>
+          <button class="btn">Details Here</button>
+        </div>
+        <div class="product" data-name="p-3">
+          <img src="image/products2-img/p3.png" alt="" />
+          <h3>Product Name</h3>
+          <div class="price">Rp 86.000,-</div>
+          <button class="btn">Details Here</button>
+        </div>
+        <div class="product" data-name="p-4">
+          <img src="image/products2-img/p4.png" alt="" />
+          <h3>Product Name</h3>
+          <div class="price">Rp 86.000,-</div>
+          <button class="btn">Details Here</button>
+        </div>
+        <div class="product" data-name="p-5">
+          <img src="image/products2-img/p5.png" alt="" />
+          <h3>Product Name</h3>
+          <div class="price">Rp 86.000,-</div>
+          <button class="btn">Details Here</button>
+        </div>
+        <div class="product" data-name="p-6">
+          <img src="image/products2-img/p6.png" alt="" />
+          <h3>Product Name</h3>
+          <div class="price">Rp 86.000,-</div>
+          <button class="btn">Details Here</button>
+        </div>
+      </div>
+    </div>
+    <div class="products-preview">
+      <div class="preview" data-target="p-1">
+        <i class="fas fa-times"></i>
+        <img src="image/products2-img/p1.png" alt="" />
+        <h3>Product Name</h3>
+        <div class="starts">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <span>(250)</span>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error commodi
+          ullam sint ad suscipit voluptatibus, consectetur culpa quasi sed
+          omnis.
+        </p>
+        <div class="price">Rp 86.000,-</div>
+        <div class="buttons">
+          <a href="#" class="buy">Buy Now</a>
+          <a href="#" class="cart">Add to cart</a>
+        </div>
+      </div>
+      <div class="preview" data-target="p-2">
+        <i class="fas fa-times"></i>
+        <img src="image/products2-img/p2.png" alt="" />
+        <h3>Product Name</h3>
+        <div class="starts">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <span>(250)</span>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error commodi
+          ullam sint ad suscipit voluptatibus, consectetur culpa quasi sed
+          omnis.
+        </p>
+        <div class="price">Rp 86.000,-</div>
+        <div class="buttons">
+          <a href="#" class="buy">Buy Now</a>
+          <a href="#" class="cart">Add to cart</a>
+        </div>
+      </div>
+      <div class="preview" data-target="p-3">
+        <i class="fas fa-times"></i>
+        <img src="image/products2-img/p3.png" alt="" />
+        <h3>Product Name</h3>
+        <div class="starts">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <span>(250)</span>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error commodi
+          ullam sint ad suscipit voluptatibus, consectetur culpa quasi sed
+          omnis.
+        </p>
+        <div class="price">Rp 86.000,-</div>
+        <div class="buttons">
+          <a href="#" class="buy">Buy Now</a>
+          <a href="#" class="cart">Add to cart</a>
+        </div>
+      </div>
+      <div class="preview" data-target="p-4">
+        <i class="fas fa-times"></i>
+        <img src="image/products2-img/p4.png" alt="" />
+        <h3>Product Name</h3>
+        <div class="starts">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <span>(250)</span>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error commodi
+          ullam sint ad suscipit voluptatibus, consectetur culpa quasi sed
+          omnis.
+        </p>
+        <div class="price">Rp 86.000,-</div>
+        <div class="buttons">
+          <a href="#" class="buy">Buy Now</a>
+          <a href="#" class="cart">Add to cart</a>
+        </div>
+      </div>
+      <div class="preview" data-target="p-5">
+        <i class="fas fa-times"></i>
+        <img src="image/products2-img/p5.png" alt="" />
+        <h3>Product Name</h3>
+        <div class="starts">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <span>(250)</span>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error commodi
+          ullam sint ad suscipit voluptatibus, consectetur culpa quasi sed
+          omnis.
+        </p>
+        <div class="price">Rp 86.000,-</div>
+        <div class="buttons">
+          <a href="#" class="buy">Buy Now</a>
+          <a href="#" class="cart">Add to cart</a>
+        </div>
+      </div>
+      <div class="preview" data-target="p-6">
+        <i class="fas fa-times"></i>
+        <img src="image/products2-img/p6.png" alt="" />
+        <h3>Product Name</h3>
+        <div class="starts">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <span>(250)</span>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error commodi
+          ullam sint ad suscipit voluptatibus, consectetur culpa quasi sed
+          omnis.
+        </p>
+        <div class="price">Rp 86.000,-</div>
+        <div class="buttons">
+          <a href="#" class="buy">Buy Now</a>
+          <a href="#" class="cart">Add to cart</a>
+        </div>
+      </div>
+    </div>
+    <!-- Product ends -->
+    <!-- Reveiw Page starts -->
+    <div class="testimonials-select" id="review">
+      <h1 class="heading"><span>Our Clients&nbsp;</span>Say's</h1>
+      <div class="owl-carousel owl-theme testimonials-container">
+        <div class="item testimonial-card">
+          <main class="test-card-body">
+            <div class="quote">
+              <i class="fa-solid fa-quote-left"></i>
+              <h2>Awesome Product</h2>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit
+              amet perferendis, non consequatur corporis in repellendus nesciunt
+              soluta beatae magnam.
+            </p>
+            <div class="ratings">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </main>
+          <div class="profile">
+            <div class="profile-image">
+              <img src="image/profile-img/r1.png" alt="" />
+            </div>
+            <div class="profile-desc">
+              <span>Person Name</span>
+              <span>Description</span>
+            </div>
+          </div>
+        </div>
+        <div class="item testimonial-card">
+          <main class="test-card-body">
+            <div class="quote">
+              <i class="fa-solid fa-quote-left"></i>
+              <h2>Awesome Product</h2>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit
+              amet perferendis, non consequatur corporis in repellendus nesciunt
+              soluta beatae magnam.
+            </p>
+            <div class="ratings">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </main>
+          <div class="profile">
+            <div class="profile-image">
+              <img src="image/profile-img/r2.png" alt="" />
+            </div>
+            <div class="profile-desc">
+              <span>Person Name</span>
+              <span>Description</span>
+            </div>
+          </div>
+        </div>
+        <div class="item testimonial-card">
+          <main class="test-card-body">
+            <div class="quote">
+              <i class="fa-solid fa-quote-left"></i>
+              <h2>Awesome Product</h2>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit
+              amet perferendis, non consequatur corporis in repellendus nesciunt
+              soluta beatae magnam.
+            </p>
+            <div class="ratings">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </main>
+          <div class="profile">
+            <div class="profile-image">
+              <img src="image/profile-img/r3.png" alt="" />
+            </div>
+            <div class="profile-desc">
+              <span>Person Name</span>
+              <span>Description</span>
+            </div>
+          </div>
+        </div>
+        <div class="item testimonial-card">
+          <main class="test-card-body">
+            <div class="quote">
+              <i class="fa-solid fa-quote-left"></i>
+              <h2>Awesome Product</h2>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit
+              amet perferendis, non consequatur corporis in repellendus nesciunt
+              soluta beatae magnam.
+            </p>
+            <div class="ratings">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </main>
+          <div class="profile">
+            <div class="profile-image">
+              <img src="image/profile-img/r4.png" alt="" />
+            </div>
+            <div class="profile-desc">
+              <span>Person Name</span>
+              <span>Description</span>
+            </div>
+          </div>
+        </div>
+        <div class="item testimonial-card">
+          <main class="test-card-body">
+            <div class="quote">
+              <i class="fa-solid fa-quote-left"></i>
+              <h2>Awesome Product</h2>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit
+              amet perferendis, non consequatur corporis in repellendus nesciunt
+              soluta beatae magnam.
+            </p>
+            <div class="ratings">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </main>
+          <div class="profile">
+            <div class="profile-image">
+              <img src="image/profile-img/r5.png" alt="" />
+            </div>
+            <div class="profile-desc">
+              <span>Person Name</span>
+              <span>Description</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Reveiw Page ends -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!--   *****   JQuery Link  For Review page *****   -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <!--   *****   Owl Carousel js Link  Review *****  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
