@@ -642,3 +642,35 @@ section {
   font-size: 15px;
   color: var(--bg);
 }
+.owl-nav {
+  position: absolute;
+  right: 20px;
+  bottom: -10px;
+}
+.owl-nav button {
+  border-radius: 50% !important;
+}
+.owl-nav .owl-prev i,
+.owl-nav .owl-next i {
+  padding: 10px !important;
+  border-radius: 50%;
+  font-size: 18px !important;
+  background: var(--bg);
+  color: #fff;
+  transition: 0.4s;
+}
+.owl-nav .owl-prev i:hover,
+.owl-nav .owl-next i:hover {
+  background: var(--hover) !important;
+  color: #fff;
+}
+.owl-dots {
+  margin-top: 15px;
+}
+.owl-dots .owl-dot span {
+  background: var(--bg) !important;
+  padding: 6px !important;
+}
+.owl-dot.active span {
+  background: var(--hover) !important;
+}
