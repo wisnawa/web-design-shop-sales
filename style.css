@@ -765,6 +765,7 @@ section {
 }
 .reg .login a {
   color: #333;
+  font-size: 18px;
   text-decoration: none;
 }
 .reg .login a:hover {
@@ -780,4 +781,80 @@ section {
   background: #2a4241;
   color: #fff;
   border: none;
+}
+/* Footer */
+.footer {
+  background: #e7cebc;
+  text-align: center;
+}
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+.footer .box-container .box h3 {
+  text-transform: capitalize;
+  font-size: 2.2rem;
+  color: #a75922;
+  padding: 1rem 0;
+}
+.footer .box-container .box p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #444;
+  padding: 0.5rem 0;
+}
+.footer .box-container .box .share {
+  margin-top: 1rem;
+}
+.footer .box-container .box .share a i {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4rem;
+  border-radius: 10%;
+  font-size: 2.5rem;
+  background: var(--hover);
+  color: #fff;
+  margin-right: 0.3rem;
+}
+.footer .box-container .box .share a i:hover {
+  background: #a75922;
+}
+.footer .box-container .box .link {
+  font-size: 1.7rem;
+  line-height: 2;
+  color: #444;
+  padding: 0.5rem 0;
+  display: block;
+}
+.footer .box-container .box .link:hover {
+  color: #a75922;
+  text-decoration: underline;
+}
+.footer .credit {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 3rem;
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: var(--primary);
+  border-top: 0.1rem solid var(--primary);
+}
+.footer .credit span {
+  font-weight: bold;
+  color: #a75922;
+}
+/* back to up */
+.gotobtn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #a75922;
+  bottom: 40px;
+  right: 20px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  font-size: 22px;
 }
