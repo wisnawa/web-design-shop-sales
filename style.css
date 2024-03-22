@@ -857,4 +857,5 @@ section {
   line-height: 50px;
   color: #fff;
   font-size: 22px;
+  scroll-behavior: smooth;
 }
